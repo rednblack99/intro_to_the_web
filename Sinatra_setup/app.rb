@@ -15,5 +15,6 @@ get '/banana' do
 end
 
 get '/cat' do
+  @name = ["Chairman Meow", "Oscar", "Viking"].sample
   erb(:index)
 end
